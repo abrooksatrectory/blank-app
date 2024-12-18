@@ -1,6 +1,12 @@
 import streamlit as st
 
-st.title("🎈 My new app")
+st.title("🎈Hi Mrs. Karp")
 st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
+    "I am sad"
 )
+st.button("press me!")
+if st.button("press me!")
+    st.stop()
+st.button("don't press me!")
+if st.button("don't press me!")
+    st.stop()
