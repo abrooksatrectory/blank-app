@@ -5,8 +5,8 @@ st.write(
     "I am sad"
 )
 st.button("press me!")
-if st.button("press me!"):
-    st.stop()
 st.button("don't press me!")
 if st.button("don't press me!"):
-    st.stop()
+    st.write("Ow! Don't you listen?")
+if st.button("press me!"):
+    st.write("You just took orders from a button.")
